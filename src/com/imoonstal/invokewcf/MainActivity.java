@@ -45,7 +45,7 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
     
-    //调用服务
+    //调用wcf服务
     public void CallWebService(){
     	//指定WebService的命名空间和调用的方法名 
     	SoapObject request = new SoapObject(NameSpace, MethodName);
